@@ -47,6 +47,9 @@ executables:
     dependencies:
     - haskell-web
     - scotty
+    - aeson
+    - http-types
+    - text
 
 tests:
   haskell-web-test:
